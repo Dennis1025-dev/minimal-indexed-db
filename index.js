@@ -76,7 +76,7 @@ const DB = function DB(dbName, key = 'id') {
 
             /**
          * Inserts or updates an entry in the object store.
-         * @param {string|object} entryData - The data to insert or update.
+         * @param {object} entryData - The data to insert or update.
          * @returns {Promise<any>} A promise that resolves with the updated entry.
          */
 
@@ -84,7 +84,7 @@ const DB = function DB(dbName, key = 'id') {
 
             /**
               * Inserts or updates an entry in the object store.
-              * @param {string|object} entryData - The data to insert or update.
+              * @param {Object[]|Object} entryData - The data to insert or update.
               * @returns {Promise<any>} A promise that resolves with the updated entry.
               */
 
